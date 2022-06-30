@@ -1,0 +1,92 @@
+body {
+  background-color: #040714;
+  color: silver;
+  font-family: 'Nunito', sans-serif;
+}
+
+nav {
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.login-button {
+  background-color: black;
+  color: #FEFEFE;
+  border: 1px solid silver;
+  border-radius: 4px;
+  font-size: 24px;
+
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  margin-right: 50px;
+  padding: 10px 20px;
+}
+
+.hero {
+  height: 85vh;
+  margin: 0;
+  padding: 5%;
+  position: static;
+
+  background-size: cover;
+}
+
+.hero .content {
+  
+  align-items: center;
+  text-align: center;
+  display: block;
+
+  height: auto;
+  width: 50%;
+  max-width: 640px;
+
+  margin: 24vh 0;
+
+  /* padding: 15% 0; */
+}
+
+.hero .content p {
+  color: #FEFEFE;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.hero .background {
+  background: url("img/bg-image.jfif");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  z-index: -1;
+}
+
+.hero .content .logo {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.button {
+  margin: 10px auto 0 auto;
+
+  width: 100%;
+
+  
+  color: #FEFEFE;
+  background-color: #6421ff;
+  border: none;
+  border-radius: 5px;
+
+  padding: 20px 0;
+
+  font-size: 1.5em;
+}
